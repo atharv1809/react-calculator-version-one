@@ -1,5 +1,6 @@
 import Display from "./components/Display";
 import ButtonsContainer from "./components/ButtonsContainer";
+import Temporary from "./components/Temporary";
 import styles from "./App.module.css";
 function App()
 {
@@ -8,6 +9,7 @@ function App()
       <Display></Display>
       <ButtonsContainer></ButtonsContainer>
     </div>
+    <Temporary></Temporary>
   </center>
 }
 export default App;
